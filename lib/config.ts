@@ -28,6 +28,11 @@ export const siteConfig = {
   hoursAr: "ساعات الدوام الداخلي غير منشورة على الموقع",
   addressAr: "الأردن",
   promiseAr: "طلب موزّع عناية شخصية يُلتقط من واتساب ويُسعَّر باعتماد بشري",
+  engine: "موزّعو العناية",
+  gap: "الموقع عربي مختصر وأخبار هيئة عامة. الكتالوج التفصيلي غير ظاهر للزائر.",
+  industry: "كيماويات وعناية شخصية",
+  hero: "الموزّع يريد تشكيلة شامبو ومنظّف اليوم. المنصة ترتّب الطلب وأنت تعتمد السعر",
+  websiteHost: "ica-jo.com",
   developer: { nameAr: "م. صهيب الصالح", phone: "962787523192", prefill: "ICA" },
 } as const;
 export function getDiscoveryFormUrl(): string { return readPublic("NEXT_PUBLIC_DISCOVERY_FORM_URL"); }
